@@ -1,0 +1,114 @@
+
+.navbar navbar-expand-lg bg-light{
+    position: fixed;
+
+}
+#college_name{
+    text-shadow: 1cap;
+    color: hsl(45, 77%, 46%);
+    text-decoration: wavy;
+    text-size-adjust: 2;
+    font-size: 45px;
+
+}
+#home{
+    background: url("enactus_background.jpg");
+    height:100vh;
+    background-size: cover;
+    position: relative;
+    font-size:3rem;
+}
+.highlight{
+    color: hsl(45, 77%, 46%);
+    
+}
+.normal{
+    color: white;
+}
+#about{
+    display: block;
+    padding: 60px 40px 40px 40px;
+    line-height: 1;
+    text-align: center;
+}
+.about_heading{
+    font-size: 92px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(45, 77%, 46%);
+    font-weight: 400;
+}
+.about_mission{
+    font-size: 40px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+.about_highlighttext{
+    font-size: 30px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(45, 77%, 46%);
+    font-weight: 400;
+}
+.about_normaltext{
+    font-size: 28px;
+}
+#projects{
+    width: 100%;
+    border-top: 100px;
+    background-color:#f6f6f6;
+}
+.projects_heading{
+    font-size: 40px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+.project{
+    align-items: center;
+}
+.heading1{
+    color: aqua;
+}
+.content1{
+    color: whitesmoke;
+}
+.projectaagah{
+    color: wheat;
+}
+.content2{
+    color: white;
+}
+.projectsujal{
+    color: wheat;
+}
+.content3{
+    color: whitesmoke;
+}
+#contact{
+    background-color: #232D39;
+}
+.row{
+    display: grid;
+    grid-template-columns:  repeat(3, minmax(20px,1fr));
+    table-layout: fixed;
+}
+.column{
+    padding: 40px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 60px;
+    padding-left: 60px;
+    line-gap-override: 2px;
+}
+#enactus{
+    color:  hsl(45, 77%, 46%);
+    font-size: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#college{
+    color:  hsl(45, 69%, 27%);
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
